@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float: left;
+  width: 20%;
+}
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid hotpink;
+}
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.right {
+  background-color:antiquewhite;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
+}
+
+@media only screen and (max-width:800px) {
+ 
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+
+
+<div style="background-color:yellowgreen;">
+  <h1>Footy</h1>
+  <h3>What's fascinating about the Australian Footy league?</h3>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <div class="menuitem">Teams</div>
+    <div class="menuitem">Fans</div>
+  </div>
+
+  <div class="main">
+    
+    <p>The AFL or the Australian Footy League has gained it's craze primarily because of it's fast-paced action and the rich history this game carries For the fans, this is not just a game. It is an emotion!</p>
+    <img src= "AFL.jpeg" width:100%>
+  </div>
+
+  <div class="right">
+    <h2>How many Teams?</h2>
+    <p>The AFL typically has 18 teams competing which makes this game even more facinating.</p>
+    <h2>Revenue</h2>
+    <p>The AFL generates a massive 944 million dollars of revenue approximately.</p>
+  </div>
+</div>
+
+</body>
+</html>
+
